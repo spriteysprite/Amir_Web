@@ -1,0 +1,160 @@
+<html>
+  <head>
+      <meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type">
+ </head>  
+ <body>    
+ <pre>/** Skeleton
+V1.2* Copyright 2011, Dave Gamache* www.getskeleton.com* Free to use under the MIT license.*
+http://www.opensource.org/licenses/mit-license.php* 6/20/2012*/
+/* Table ofContent==================================================	
+#Site Styles	#Page Styles	#Media Queries	#Font-Face */
+================================================== */
+/* Nav */
+#nav { list-style:none;	padding:0;  }
+#nav ul { height:20px}
+#nav li {  height:20px; line-height:20px; display:inline;}
+#nav li a {	
+	display:block;	
+	text-decoration:none;	
+	padding:5px 20px;	
+	float:right;	
+	text-align:center;	
+	border-right:1px solid #ddd;
+	 margin:40px 0 0 0;		
+	 -webkit-transition: margin 0.5s ease-out;		
+	 -moz-transition: margin 0.5s ease-out;		
+	 -o-transition: margin 0.5s ease-out;		
+	 -ms-transition: margin 0.5s ease-out;		
+	 transition: margin 0.5s ease-out;
+	 }
+#nav li a:hover {	
+	font-style: italic;	
+	color: #F2F2F2;	
+	margin-top:30px;
+	}
+	body#home a#home,body#projects a#projects,body#profile a#profile,body#dates a#dates
+	{	
+	font-style: bold;
+	color: #646D7E;	
+	margin-top:30px;
+	}
+	
+/* Slider Style */
+#slider1 {
+    width: 760px; /* important to be same as image width*/    
+    height: 450px; /* important to be same as image height */ 
+    position: relative; /* important */	
+    overflow: hidden; /*important */	
+    margin-left: auto;   
+     margin-right: auto 
+     }
+#slider1Content {
+    width: 100%; /* important to be same as image width or wider */
+    position: absolute;
+    }  
+.slider1Image {
+    float: left; 
+    position: relative;	
+    display: none;
+    }
+.slider1Image span {
+   position: absolute; 
+   padding: 0px 13px;    
+   width: 860px;    
+   background-color: #000;    
+   filter: alpha(opacity=70); 
+   	-moz-opacity:0.7;
+   	-khtml-opacity: 0.7; 
+   	opacity: 0.7;
+   color: #fff;
+   display: none;
+	}
+.clear {	
+clear: both;
+	}
+.left {	
+	top: 0;
+    left:0;
+	width: 110px !important;
+	height: 280px;
+		}
+.right {
+    right: 0;
+    bottom: 5px;
+    width: 150px !important;
+    height: 250px;
+    	}
+.offright {
+	right: 0px;
+	bottom: 5px;
+	width: 90px !important;	
+	height: 250px;
+	}
+.top {
+	top: 0;
+	left:0;
+	}
+.bottom {
+	bottom: 0;
+    left: 0;
+    }
+ul {
+ list-style-type: none;
+ }
+ /*Title styles*/
+ .title {	
+ 	color: #fff;	
+ 	font-size:20px;	
+ 	font-weight: bold;	
+ 	position: absolute;	
+ 	left: 0; 
+ 	bottom: 0;	
+ 	z-index: 2; 
+ /* text on top */	
+ padding: 10px 5px;
+ }
+ /*Footer Nav */
+ #footnav {float:left; width:100%; background: #DBDBDB; overflow:hidden; position:relative;}
+ #footnav ul {clear:left; float:left; list-style:none; margin:0; padding:0; position:relative; left: 50%; text-align:center;}
+ #footnav ul li {display:block; float:left; list-style:none; margin:0; padding:0; position:relative; right: 50%; } 
+ #footnav ul li a {display:block; margin:0 0 0 1px; padding:10px; font-size:12px; text-decoration:none; line-height:1.3em;}
+ #footnav a:hover {font-size:14px;}
+
+ /* #Page Styles================================================== */
+ /*Project - Listing, Image style, padding etc.*/
+ .projlist {display: inline;}
+ .lines {border-bottom: 1px solid #DDDDDD; padding: 1.5em 0;}
+ /*Home - Image, paragraph center*/
+ .blocktext {margin-left: auto; margin-right: auto; width: 600px; }    
+ .imgmid {display: block; margin-left: auto; margin-right: auto; }    
+ /* #Media Queries================================================== */	
+ /* Smaller than standard 960 (devices and browsers) */	
+ 	@media only screen and (max-width: 959px) {}	
+ /* Tablet Portrait size to standard 960 (devices and browsers) */
+ 	@media only screen and (min-width: 768px) and (max-width: 959px) {}	
+ /* All Mobile Sizes (devices and browser)*/
+ 	@media only screen and (max-width: 767px) {}	
+ /* Mobile Landscape Size to Tablet Portrait (devices and browsers)*/
+ 	@media only screen and (min-width: 480px) and (max-width: 767px) {}	
+ /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+ 		@media only screen and (max-width: 479px) {}
+/*#Font-Face================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root, copy your FontName into code below and remove	comment brackets*/
+/*	@font-face { font-family: 'helvetica_neueregular';    
+src: url('../fonts/helveticaneue-ultralight.eot');    
+src: url('../fonts/helveticaneue-ultralight.eot?#iefix') 
+format('embedded-opentype'), 
+url('../fonts/helveticaneue-ultralight.woff')
+format('woff'), 
+url('../fonts/helveticaneue-ultralight.ttf') 
+format('truetype'),
+url('../fonts/helveticaneue-ultralight.svg#helvetica_neueregular') 
+format('svg'); font-weight: normal;
+    font-style: normal;
+}*/
+
+</pre>    
+<br>  
+</body>
+</html>
