@@ -109,20 +109,25 @@
 }
 
 .og-details h3 {
+/* 
 	font-weight: 300;
 	font-size: 52px;
 	padding: 40px 0 10px;
 	margin-bottom: 10px;
+ */
 }
 
 .og-details p {
+/* 
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 22px;
 	color: #999;
+ */
 }
 
 .og-details a {
+/* 
 	font-weight: 700;
 	font-size: 16px;
 	color: #333;
@@ -133,6 +138,7 @@
 	display: inline-block;
 	margin: 30px 0 0;
 	outline: none;
+ */
 }
 
 .og-details a::before {

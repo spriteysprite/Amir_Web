@@ -1,7 +1,9 @@
 /* General Demo Style */
+/* 
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 html { height: 100%; }
+ */
 
 *,
 *:after,
@@ -27,6 +29,7 @@ html { height: 100%; }
 .clearfix {
     *zoom: 1;
 }
+/* 
 
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
@@ -42,12 +45,16 @@ a {
 	color: #555;
 	text-decoration: none;
 }
+ */
 
+/* 
 .container {
 	width: 100%;
 	position: relative;
 }
+ */
 
+/* 
 .container > header {
 	width: 90%;
 	max-width: 1240px;
@@ -68,19 +75,25 @@ a {
 	font-weight: 700;
 	color: #333;
 }
+ */
+/* 
 
 .container > header h1 span {
 	display: block;
 	font-size: 20px;
+
 	font-weight: 300;
 }
-
+ */
+/* 
 .main > p {
 	text-align: center;
 	padding: 50px 20px;
 }
+ */
 
 /* Header Style */
+/* 
 .codrops-top {
 	line-height: 24px;
 	font-size: 11px;
@@ -112,3 +125,4 @@ a {
 	float: left;
 	display: block;
 }
+ */
