@@ -142,7 +142,7 @@
 }
 
 .og-details a::before {
-	content: '\2192';
+	content: '\2192'; /* right-arrow */
 	display: inline-block;
 	margin-right: 10px;
 }

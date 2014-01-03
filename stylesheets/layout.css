@@ -29,7 +29,7 @@ http://www.opensource.org/licenses/mit-license.php* 6/20/2012*/
 	 }
 #nav li a:hover {	
 	font-style: italic;	
-	color: #F2F2F2;	
+	color: #646D7E;	
 	margin-top:30px;
 	}
 	body#home a#home,body#projects a#projects,body#profile a#profile,body#dates a#dates
@@ -126,7 +126,40 @@ ul {
  .lines {border-bottom: 1px solid #DDDDDD; padding: 1.5em 0;}
  /*Home - Image, paragraph center*/
  .blocktext {margin-left: auto; margin-right: auto; width: 600px; }    
- .imgmid {display: block; margin-left: auto; margin-right: auto; }    
+ .imgmid {display: block; margin-left: auto; margin-right: auto; }   
+ 
+ /* Grip layout Originally from Codrops default.css */
+ 
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.main > p {
+	text-align: center;
+	padding: 50px 20px;
+} 
+  
  /* #Media Queries================================================== */	
  /* Smaller than standard 960 (devices and browsers) */	
  	@media only screen and (max-width: 959px) {}	
